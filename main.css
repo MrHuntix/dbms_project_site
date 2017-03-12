@@ -1,0 +1,90 @@
+body{
+	width:100%;height: 100%; overflow-x: hidden;background-color: white;
+}
+
+#frm{
+	margin-top: 100px;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(20%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+#quote{
+	font-size: 150%;
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    width: 100%;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+.btn{
+	 padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+#org{
+	width:250px;height: 250px;
+}
+
+#organ{
+	background-color: #e05038
+}
+
+#nc{
+	color: red;	
+}
+
+#nc:hover{
+	background-color: white;
+}
+
+#nc1{
+	color: white;font-size: 130%
+}
+
+.jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+  }
+
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo {
+      font-size: 200px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
